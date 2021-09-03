@@ -31,7 +31,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
     enabled = true
     azure_active_directory {
       managed                = true
-      admin_group_object_ids = [azuread_group.aks_administrators.object_id]
+      admin_group_object_ids = data.azuread_group.aks_administrators.object_id
     }
   }
 }
