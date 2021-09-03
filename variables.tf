@@ -10,5 +10,5 @@ variable "client_secret" {
 
 //General
 variable "subscription_id" { default = "efe379ac-bba6-4a98-87af-56c784355dc5" }
-variable "tenant_id" { default = "bd6704ff-1437-477c-9ac9-c30d6f5133c5" }
+variable "tenant_id" { default = "a63b5a0c-eb96-475e-a563-3ad69174bd79" }
 variable "environment" { default = "sandbox" }
