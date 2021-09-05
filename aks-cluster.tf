@@ -23,6 +23,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
     orchestrator_version = data.azurerm_kubernetes_service_versions.current.latest_version
     os_disk_size_gb      = 100
     vm_size              = "Standard_D2s_v3"
+    os_disk_type         = "Ephemeral"
   }
 
   identity { type = "SystemAssigned" }

@@ -1,4 +1,4 @@
-# These variables can also be declared in variables.tf
+# These variables automatically applied to main.tf and override variables.tf
 environment                = "sandbox"
 subscription_id            = "efe379ac-bba6-4a98-87af-56c784355dc5"
 tenant_id                  = "a63b5a0c-eb96-475e-a563-3ad69174bd79"
